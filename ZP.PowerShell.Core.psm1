@@ -38,7 +38,8 @@ Function ZP-WriteZPObject
 Function ZP-NewTempFile
 {
     [CmdletBinding(PositionalBinding = $false)]
-    Param (
+    Param
+    (
         [Parameter()][String]$Name,
         [Parameter()][String]$Identifier
     )
